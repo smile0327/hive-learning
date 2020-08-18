@@ -29,7 +29,7 @@ public class MyLower extends UDF {
      *   3.1、添加jar
      *   add jar jar_path
      *   3.2、创建function，并与开发好的java class进行关联
-     *   create [temporary] function [if exists] [dbname.]function_name as "com.kevin.study.hive.function.udf.MyLower";
+     *   create [temporary] function [if exists] [dbname.]function_name as "MyLower";
      *
      *  UDF函数必须有返回类型，可以返回NULL，但是返回类型不能为void
      * @param s
